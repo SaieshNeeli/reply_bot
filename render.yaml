@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: telegram-userbot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+    - key: OPENAI_API_KEY
+      value: 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
