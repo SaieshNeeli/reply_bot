@@ -2,4 +2,3 @@ pyrogram
 tgcrypto
 openai
 nest_asyncio
-os
